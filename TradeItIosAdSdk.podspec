@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TradeItIosAdSdk'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'TradeIt iOS Ad SDK'
 
 
@@ -25,9 +25,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'TradeItIosAdSdk/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TradeItIosAdSdk' => ['TradeItIosAdSdk/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'TradeItIosAdSdk' => ['TradeItIosAdSdk/**/*.{xib,der}']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'

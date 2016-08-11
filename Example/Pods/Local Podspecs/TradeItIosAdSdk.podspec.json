@@ -1,9 +1,9 @@
 {
   "name": "TradeItIosAdSdk",
-  "version": "0.1.0",
-  "summary": "A short description of TradeItIosAdSdk.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/TradeItIosAdSdk",
+  "version": "0.1.1",
+  "summary": "TradeIt iOS Ad SDK",
+  "description": "A library that provides tools for inserting ads into your iOS apps using the TradeIt platform.",
+  "homepage": "https://github.com/tradingticket/TradeItIosAdSdkPod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,17 @@
     "James Robert Somers": "james@trade.it"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/TradeItIosAdSdk.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/tradingticket/TradeItIosAdSdkPod.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TradeItIosAdSdk/Classes/**/*"
+  "source_files": "TradeItIosAdSdk/Classes/**/*",
+  "resource_bundles": {
+    "TradeItIosAdSdk": [
+      "TradeItIosAdSdk/**/*.{xib,der}"
+    ]
+  },
+  "frameworks": "UIKit"
 }

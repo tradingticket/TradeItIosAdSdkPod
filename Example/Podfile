@@ -5,7 +5,5 @@ target 'TradeItIosAdSdk_Example' do
 
   target 'TradeItIosAdSdk_Tests' do
     inherit! :search_paths
-
-    
   end
 end

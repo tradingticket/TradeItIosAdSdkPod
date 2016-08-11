@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0724AA31447780EFE2AD9087E4A6BAFF /* TradeItAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CBADD7008CFFEAC091B02C1A6BB3834 /* TradeItAdView.xib */; };
+		0D712186145BBF795E57132C4C049465 /* TradeItAdConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA8DF16E55B52EC57FDDEF21515495E /* TradeItAdConfig.swift */; };
+		25924BD307364BDCD5959095C116F55F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		27BB733EB9C42C8E8C755198A7827FCE /* TradeItIosAdSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CED63772736E8DFAFC6B59DC96A9B7 /* TradeItIosAdSdk-dummy.m */; };
 		2B08A3967639E09E9D1B65FE0F8E2099 /* Pods-TradeItIosAdSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C668020C44F85C0391BF3E89D09953B /* Pods-TradeItIosAdSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C541F201A42E597DC086484CEF20AEC /* server-qa.der in Sources */ = {isa = PBXBuildFile; fileRef = 1941986A027D70FCD1CAB15FBC1C0C15 /* server-qa.der */; };
 		4B5E1ED5BC0D815D7926D15CCB5B0CBC /* Pods-TradeItIosAdSdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 057516E5041F0784C3A2B9C8DEFFF407 /* Pods-TradeItIosAdSdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		510C414A64421104D77E63B16F647F7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		510C414A64421104D77E63B16F647F7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		580286176F1F38835A51433EF123AF56 /* TradeItAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9418F83ED822D140AE6CF0E0B0C7FAE /* TradeItAdView.swift */; };
 		618A7DF74530F5190F1214F11A98B25B /* Pods-TradeItIosAdSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD114EADC49B38D182D86A10AF2E20 /* Pods-TradeItIosAdSdk_Example-dummy.m */; };
-		9EB4BEA1C822C9FA85A96051D460630A /* TradeItIosAdSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F895A5C94C1EE26C8E3D5B865983DBF /* TradeItIosAdSdk-dummy.m */; };
+		70F5FE36695BB3FFE915716302959E3E /* server-qa.der in Resources */ = {isa = PBXBuildFile; fileRef = 1941986A027D70FCD1CAB15FBC1C0C15 /* server-qa.der */; };
+		7191500AA5B3EC78758F5BCECA6C0832 /* AdService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35302997396C66ED16008CAF9A4FB35C /* AdService.swift */; };
+		7712905EBE043F6F72581C9795ECA496 /* server-prod.der in Resources */ = {isa = PBXBuildFile; fileRef = 91F58D204D054AE99CAB46F939C35EA3 /* server-prod.der */; };
+		7AF442161596FA134EB56CB4E1B1F1AC /* TradeItAdView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0CBADD7008CFFEAC091B02C1A6BB3834 /* TradeItAdView.xib */; };
+		83B8D102497D667C3C4CB65813F0EF4D /* TradeItAdEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101447D90E5C79BFDBC4F8BD0726CBE0 /* TradeItAdEnvironment.swift */; };
+		867A0D5FFB4BDCB2CB410864194E1F6E /* SSLPinningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915D4EA5C8093D56361E9EB79DB91EC /* SSLPinningDelegate.swift */; };
+		882BCFEE444F2E8831AFA0A1E9104321 /* TradeItIosAdSdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C13C4DF7FC0DAEB6E1BB5FCC62E94660 /* TradeItIosAdSdk.bundle */; };
 		C3453A1567E2431F49D0318BF7F19B29 /* Pods-TradeItIosAdSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D704CFA5E46DCAF489B0C3E2D11A90 /* Pods-TradeItIosAdSdk_Tests-dummy.m */; };
-		C438C16C4C7E87D2BD917461BFA0ADAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		CC7E303BF1DB58E1E561D7C0E8DBA830 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B802D9EC2271D66B8DF5093D16013DD /* ReplaceMe.swift */; };
-		E2CD1BFBD73C4C03E3A751C12B72399A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		EC6BD540C031A98EBB164992838AC764 /* TradeItIosAdSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E477240EF6806A528BF5E6A6B3293AE9 /* TradeItIosAdSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB817C5114E1CB65D204CA6F17687DC /* server-prod.der in Sources */ = {isa = PBXBuildFile; fileRef = 91F58D204D054AE99CAB46F939C35EA3 /* server-prod.der */; };
+		D28F4BF30F35FB62302062C29BBC2E2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		E2CD1BFBD73C4C03E3A751C12B72399A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		E324713E636566963913B49453DCFBB1 /* TradeItAdError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ACA6FF05AD7A97E04DD390F30BCE5D /* TradeItAdError.swift */; };
+		EC6BD540C031A98EBB164992838AC764 /* TradeItIosAdSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4F62D98025877B58E7C5DBC01EB7F4 /* TradeItIosAdSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DFBC337D42FB05FBD3DD402EB832D911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBEAA3C116935F09004A248A995981EE;
+			remoteInfo = "TradeItIosAdSdk-TradeItIosAdSdk";
+		};
 		EBE3DB32D1B39BDA1076B3B7E919B315 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -31,40 +51,60 @@
 
 /* Begin PBXFileReference section */
 		057516E5041F0784C3A2B9C8DEFFF407 /* Pods-TradeItIosAdSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TradeItIosAdSdk_Example-umbrella.h"; sourceTree = "<group>"; };
-		08A19EC11129A97AEBEFB011E01C7747 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CBADD7008CFFEAC091B02C1A6BB3834 /* TradeItAdView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TradeItAdView.xib; sourceTree = "<group>"; };
+		101447D90E5C79BFDBC4F8BD0726CBE0 /* TradeItAdEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TradeItAdEnvironment.swift; sourceTree = "<group>"; };
+		10ACA6FF05AD7A97E04DD390F30BCE5D /* TradeItAdError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TradeItAdError.swift; sourceTree = "<group>"; };
 		1394C8C29A02203531881AB0646BCD31 /* Pods-TradeItIosAdSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TradeItIosAdSdk_Example.modulemap"; sourceTree = "<group>"; };
 		15CECA21DD4654B43B76D13F85831723 /* Pods-TradeItIosAdSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TradeItIosAdSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1941986A027D70FCD1CAB15FBC1C0C15 /* server-qa.der */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "server-qa.der"; sourceTree = "<group>"; };
 		22E43968CE81120C84F4351547E6F451 /* Pods-TradeItIosAdSdk_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TradeItIosAdSdk_Tests-resources.sh"; sourceTree = "<group>"; };
+		35302997396C66ED16008CAF9A4FB35C /* AdService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AdService.swift; sourceTree = "<group>"; };
 		35352C5F0CE7A84308DAB45D5A0A6C31 /* Pods-TradeItIosAdSdk_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TradeItIosAdSdk_Example-resources.sh"; sourceTree = "<group>"; };
-		3B802D9EC2271D66B8DF5093D16013DD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		4B488B263AD2422CC02AA93CD2D4350F /* TradeItIosAdSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TradeItIosAdSdk.modulemap; sourceTree = "<group>"; };
 		4F884996A73D6C64ECF77344CF8D3D76 /* Pods-TradeItIosAdSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TradeItIosAdSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		550558E9D07E7DB565E5F41818CA0716 /* Pods_TradeItIosAdSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradeItIosAdSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F895A5C94C1EE26C8E3D5B865983DBF /* TradeItIosAdSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TradeItIosAdSdk-dummy.m"; sourceTree = "<group>"; };
-		66D3F8D690F6ECAD9E826657217BB3A9 /* TradeItIosAdSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TradeItIosAdSdk.modulemap; sourceTree = "<group>"; };
+		5BF8387CCD616DD3B56B9CD285B14D1B /* ResourceBundle-TradeItIosAdSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TradeItIosAdSdk-Info.plist"; sourceTree = "<group>"; };
+		62437BCC42E47DDD3968FBA082460A7A /* TradeItIosAdSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TradeItIosAdSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A7B500C979CA1FC394246919A856C99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F4F62D98025877B58E7C5DBC01EB7F4 /* TradeItIosAdSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TradeItIosAdSdk-umbrella.h"; sourceTree = "<group>"; };
 		71DC969E1F41C5450730C4BB48DCBC38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72825FA2464746E3D60DAF8E831306DB /* Pods-TradeItIosAdSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TradeItIosAdSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80E2951B7E8BD0CA630C3609C3B2EE38 /* TradeItIosAdSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TradeItIosAdSdk-prefix.pch"; sourceTree = "<group>"; };
+		8915D4EA5C8093D56361E9EB79DB91EC /* SSLPinningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSLPinningDelegate.swift; sourceTree = "<group>"; };
 		8B5714C53712A351DDBF9A2625CD0B1F /* Pods-TradeItIosAdSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TradeItIosAdSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8C668020C44F85C0391BF3E89D09953B /* Pods-TradeItIosAdSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TradeItIosAdSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8D04E13123235B693FB94C8C751289B6 /* Pods_TradeItIosAdSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradeItIosAdSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFD114EADC49B38D182D86A10AF2E20 /* Pods-TradeItIosAdSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TradeItIosAdSdk_Example-dummy.m"; sourceTree = "<group>"; };
+		91F58D204D054AE99CAB46F939C35EA3 /* server-prod.der */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "server-prod.der"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C2C642226B53DCA5056D14E0BEAA80E /* TradeItIosAdSdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TradeItIosAdSdk.xcconfig; sourceTree = "<group>"; };
-		9E9755D158E967B0778B6C0B428E64C8 /* TradeItIosAdSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TradeItIosAdSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		973DFF7D36C3915D7FFD2434D0B6DFAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CED63772736E8DFAFC6B59DC96A9B7 /* TradeItIosAdSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TradeItIosAdSdk-dummy.m"; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A3520D1463214460E5EA539AC821ADFD /* Pods-TradeItIosAdSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TradeItIosAdSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A4D704CFA5E46DCAF489B0C3E2D11A90 /* Pods-TradeItIosAdSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TradeItIosAdSdk_Tests-dummy.m"; sourceTree = "<group>"; };
+		AAA8DF16E55B52EC57FDDEF21515495E /* TradeItAdConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TradeItAdConfig.swift; sourceTree = "<group>"; };
 		AE08F83FA0C3874CE42CAF4A4C872764 /* Pods-TradeItIosAdSdk_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TradeItIosAdSdk_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B1F34DF4934F57EA61B633F8C8D2B70B /* Pods_TradeItIosAdSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradeItIosAdSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A71A219ACF15D8F18035ECC7CE741F /* Pods-TradeItIosAdSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TradeItIosAdSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9418F83ED822D140AE6CF0E0B0C7FAE /* TradeItAdView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TradeItAdView.swift; sourceTree = "<group>"; };
+		C13C4DF7FC0DAEB6E1BB5FCC62E94660 /* TradeItIosAdSdk.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeItIosAdSdk.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F1719A18FE7AF203174142F5EB8495 /* Pods-TradeItIosAdSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TradeItIosAdSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E21B90BCD1147FBA1F4D08D61EF589DD /* Pods-TradeItIosAdSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TradeItIosAdSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E477240EF6806A528BF5E6A6B3293AE9 /* TradeItIosAdSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TradeItIosAdSdk-umbrella.h"; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F1223A1EB2C6585BD34037F9E2DCF06F /* Pods-TradeItIosAdSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TradeItIosAdSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F18524A464A32ED0EC7A6AC109CDF38D /* TradeItIosAdSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TradeItIosAdSdk-prefix.pch"; sourceTree = "<group>"; };
 		F6F00B0C811738EB6A1E37A37D6BA9A2 /* Pods-TradeItIosAdSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TradeItIosAdSdk_Tests.modulemap"; sourceTree = "<group>"; };
+		F9492F579A95717820D064358EDF1164 /* TradeItIosAdSdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TradeItIosAdSdk.xcconfig; sourceTree = "<group>"; };
+		FDC6B0693633F886DC49E934843AA286 /* Pods_TradeItIosAdSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradeItIosAdSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2EC80DB59E3FA20C47C974CA2FFBC810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25924BD307364BDCD5959095C116F55F /* Foundation.framework in Frameworks */,
+				D28F4BF30F35FB62302062C29BBC2E2A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A13F573F38FF5E66E7EBAA68C44F279 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,11 +113,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5921AACD821F60A1986B102EDD3FADF /* Frameworks */ = {
+		E2AA4C65D113DC940010C09FED37FF33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C438C16C4C7E87D2BD917461BFA0ADAB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,22 +131,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BA48B27E6460B3ADDDFA4EF9575C321 /* TradeItIosAdSdk */ = {
+		1046CC03FC9198F4AFF8149E2EF2F391 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				48E616F8BD470CA241387D5C272843AD /* Classes */,
+				35302997396C66ED16008CAF9A4FB35C /* AdService.swift */,
+				8915D4EA5C8093D56361E9EB79DB91EC /* SSLPinningDelegate.swift */,
+				AAA8DF16E55B52EC57FDDEF21515495E /* TradeItAdConfig.swift */,
+				101447D90E5C79BFDBC4F8BD0726CBE0 /* TradeItAdEnvironment.swift */,
+				10ACA6FF05AD7A97E04DD390F30BCE5D /* TradeItAdError.swift */,
+				B9418F83ED822D140AE6CF0E0B0C7FAE /* TradeItAdView.swift */,
+				6C6DB8431E6461C9F7E7D95792F6E72B /* Assets */,
 			);
-			path = TradeItIosAdSdk;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		2A3A4D8BCA6DD4A1A867D6FC8EB98D0E /* Products */ = {
+		25791F18580B5D34517F7F946DC33DA3 /* TradeItIosAdSdk */ = {
 			isa = PBXGroup;
 			children = (
-				B1F34DF4934F57EA61B633F8C8D2B70B /* Pods_TradeItIosAdSdk_Example.framework */,
-				550558E9D07E7DB565E5F41818CA0716 /* Pods_TradeItIosAdSdk_Tests.framework */,
-				9E9755D158E967B0778B6C0B428E64C8 /* TradeItIosAdSdk.framework */,
+				ACED04D8DCC47FEA9267D002302B441B /* Classes */,
 			);
-			name = Products;
+			path = TradeItIosAdSdk;
 			sourceTree = "<group>";
 		};
 		34253BE5D9090D6D46E1FA6618883657 /* Pods-TradeItIosAdSdk_Tests */ = {
@@ -128,71 +171,98 @@
 			path = "Target Support Files/Pods-TradeItIosAdSdk_Tests";
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		48E616F8BD470CA241387D5C272843AD /* Classes */ = {
+		5B2E6B2F44F81FF36B78318F9153A348 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				3B802D9EC2271D66B8DF5093D16013DD /* ReplaceMe.swift */,
 			);
-			path = Classes;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6C6DB8431E6461C9F7E7D95792F6E72B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				91F58D204D054AE99CAB46F939C35EA3 /* server-prod.der */,
+				1941986A027D70FCD1CAB15FBC1C0C15 /* server-qa.der */,
+				0CBADD7008CFFEAC091B02C1A6BB3834 /* TradeItAdView.xib */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8840BA53E485C933D5F5A8161BCC12F0 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2A3A4D8BCA6DD4A1A867D6FC8EB98D0E /* Products */,
+				98A83C37C5324DDD9E4B9CA1592D04B4 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				CCE701C857E5FD781B8F68F81DB926E0 /* Products */,
 				DE3AA289FF57B405D72EBC36BC9A3AB1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8840BA53E485C933D5F5A8161BCC12F0 /* Development Pods */ = {
+		98A83C37C5324DDD9E4B9CA1592D04B4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A8BD8F83AA948FFC5EC8E3445D99B1CA /* TradeItIosAdSdk */,
+				EC4C9105CD8A2A5DA516C27BABCC0625 /* TradeItIosAdSdk */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A8BD8F83AA948FFC5EC8E3445D99B1CA /* TradeItIosAdSdk */ = {
+		ACED04D8DCC47FEA9267D002302B441B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BBB5A484F2B13FF5D12ACA37B926ED1E /* Support Files */,
-				1BA48B27E6460B3ADDDFA4EF9575C321 /* TradeItIosAdSdk */,
+				5B2E6B2F44F81FF36B78318F9153A348 /* Assets */,
 			);
-			name = TradeItIosAdSdk;
-			path = ../..;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		BBB5A484F2B13FF5D12ACA37B926ED1E /* Support Files */ = {
+		B11A9809E17B6F09571BA2F0B16171AF /* TradeItIosAdSdk */ = {
 			isa = PBXGroup;
 			children = (
-				08A19EC11129A97AEBEFB011E01C7747 /* Info.plist */,
-				66D3F8D690F6ECAD9E826657217BB3A9 /* TradeItIosAdSdk.modulemap */,
-				9C2C642226B53DCA5056D14E0BEAA80E /* TradeItIosAdSdk.xcconfig */,
-				5F895A5C94C1EE26C8E3D5B865983DBF /* TradeItIosAdSdk-dummy.m */,
-				F18524A464A32ED0EC7A6AC109CDF38D /* TradeItIosAdSdk-prefix.pch */,
-				E477240EF6806A528BF5E6A6B3293AE9 /* TradeItIosAdSdk-umbrella.h */,
+				1046CC03FC9198F4AFF8149E2EF2F391 /* Classes */,
+			);
+			path = TradeItIosAdSdk;
+			sourceTree = "<group>";
+		};
+		B5A3DF44E6B8D1653C1361A388AD7D9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25791F18580B5D34517F7F946DC33DA3 /* TradeItIosAdSdk */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B88CF59C09C96EF9D1B850F6C5D71D68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				973DFF7D36C3915D7FFD2434D0B6DFAD /* Info.plist */,
+				5BF8387CCD616DD3B56B9CD285B14D1B /* ResourceBundle-TradeItIosAdSdk-Info.plist */,
+				4B488B263AD2422CC02AA93CD2D4350F /* TradeItIosAdSdk.modulemap */,
+				F9492F579A95717820D064358EDF1164 /* TradeItIosAdSdk.xcconfig */,
+				A0CED63772736E8DFAFC6B59DC96A9B7 /* TradeItIosAdSdk-dummy.m */,
+				80E2951B7E8BD0CA630C3609C3B2EE38 /* TradeItIosAdSdk-prefix.pch */,
+				6F4F62D98025877B58E7C5DBC01EB7F4 /* TradeItIosAdSdk-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TradeItIosAdSdk";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		CCE701C857E5FD781B8F68F81DB926E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				8D04E13123235B693FB94C8C751289B6 /* Pods_TradeItIosAdSdk_Example.framework */,
+				FDC6B0693633F886DC49E934843AA286 /* Pods_TradeItIosAdSdk_Tests.framework */,
+				C13C4DF7FC0DAEB6E1BB5FCC62E94660 /* TradeItIosAdSdk.bundle */,
+				62437BCC42E47DDD3968FBA082460A7A /* TradeItIosAdSdk.framework */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		DE3AA289FF57B405D72EBC36BC9A3AB1 /* Targets Support Files */ = {
@@ -202,6 +272,26 @@
 				34253BE5D9090D6D46E1FA6618883657 /* Pods-TradeItIosAdSdk_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EC4C9105CD8A2A5DA516C27BABCC0625 /* TradeItIosAdSdk */ = {
+			isa = PBXGroup;
+			children = (
+				B5A3DF44E6B8D1653C1361A388AD7D9D /* Resources */,
+				B88CF59C09C96EF9D1B850F6C5D71D68 /* Support Files */,
+				B11A9809E17B6F09571BA2F0B16171AF /* TradeItIosAdSdk */,
+			);
+			name = TradeItIosAdSdk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		F8060F8C887B2FC4828F862ADA001A5A /* Pods-TradeItIosAdSdk_Example */ = {
@@ -266,7 +356,7 @@
 			);
 			name = "Pods-TradeItIosAdSdk_Tests";
 			productName = "Pods-TradeItIosAdSdk_Tests";
-			productReference = 550558E9D07E7DB565E5F41818CA0716 /* Pods_TradeItIosAdSdk_Tests.framework */;
+			productReference = FDC6B0693633F886DC49E934843AA286 /* Pods_TradeItIosAdSdk_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C5025F1D06B165E23F4864F06D2B68D5 /* Pods-TradeItIosAdSdk_Example */ = {
@@ -284,24 +374,43 @@
 			);
 			name = "Pods-TradeItIosAdSdk_Example";
 			productName = "Pods-TradeItIosAdSdk_Example";
-			productReference = B1F34DF4934F57EA61B633F8C8D2B70B /* Pods_TradeItIosAdSdk_Example.framework */;
+			productReference = 8D04E13123235B693FB94C8C751289B6 /* Pods_TradeItIosAdSdk_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F1F0C15951F491A13C1F81C7BE0C37E0 /* TradeItIosAdSdk */ = {
+		EBEAA3C116935F09004A248A995981EE /* TradeItIosAdSdk-TradeItIosAdSdk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99CFC42208DBBDC6127CD462CAFCE932 /* Build configuration list for PBXNativeTarget "TradeItIosAdSdk" */;
+			buildConfigurationList = 0AB5D15D72C58A2E8C382A1D43CE288F /* Build configuration list for PBXNativeTarget "TradeItIosAdSdk-TradeItIosAdSdk" */;
 			buildPhases = (
-				23D1060E6611866F8714AC9E50FBC990 /* Sources */,
-				B5921AACD821F60A1986B102EDD3FADF /* Frameworks */,
-				DBA6AF200E7D6779CC801B63B484E0CA /* Headers */,
+				487BBBAD0DE79602D347533B76932B6A /* Sources */,
+				E2AA4C65D113DC940010C09FED37FF33 /* Frameworks */,
+				6E6AA54B051D46183AE0D9F59B91C491 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "TradeItIosAdSdk-TradeItIosAdSdk";
+			productName = "TradeItIosAdSdk-TradeItIosAdSdk";
+			productReference = C13C4DF7FC0DAEB6E1BB5FCC62E94660 /* TradeItIosAdSdk.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F1F0C15951F491A13C1F81C7BE0C37E0 /* TradeItIosAdSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CFC42208DBBDC6127CD462CAFCE932 /* Build configuration list for PBXNativeTarget "TradeItIosAdSdk" */;
+			buildPhases = (
+				A10869B0296FA7E29DC3A7239913F112 /* Sources */,
+				2EC80DB59E3FA20C47C974CA2FFBC810 /* Frameworks */,
+				EB1C6230ED4D38F4CA92D808547B9F2C /* Resources */,
+				DBA6AF200E7D6779CC801B63B484E0CA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88CF64C9495918E8024F6C37FFA11857 /* PBXTargetDependency */,
+			);
 			name = TradeItIosAdSdk;
 			productName = TradeItIosAdSdk;
-			productReference = 9E9755D158E967B0778B6C0B428E64C8 /* TradeItIosAdSdk.framework */;
+			productReference = 62437BCC42E47DDD3968FBA082460A7A /* TradeItIosAdSdk.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -321,16 +430,38 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2A3A4D8BCA6DD4A1A867D6FC8EB98D0E /* Products */;
+			productRefGroup = CCE701C857E5FD781B8F68F81DB926E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C5025F1D06B165E23F4864F06D2B68D5 /* Pods-TradeItIosAdSdk_Example */,
 				BE2B5010E6690FF09063B11D4741AE22 /* Pods-TradeItIosAdSdk_Tests */,
 				F1F0C15951F491A13C1F81C7BE0C37E0 /* TradeItIosAdSdk */,
+				EBEAA3C116935F09004A248A995981EE /* TradeItIosAdSdk-TradeItIosAdSdk */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E6AA54B051D46183AE0D9F59B91C491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7712905EBE043F6F72581C9795ECA496 /* server-prod.der in Resources */,
+				70F5FE36695BB3FFE915716302959E3E /* server-qa.der in Resources */,
+				0724AA31447780EFE2AD9087E4A6BAFF /* TradeItAdView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1C6230ED4D38F4CA92D808547B9F2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882BCFEE444F2E8831AFA0A1E9104321 /* TradeItIosAdSdk.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		141E36BC55342DF7BA2208C4E68FD08A /* Sources */ = {
@@ -341,12 +472,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23D1060E6611866F8714AC9E50FBC990 /* Sources */ = {
+		487BBBAD0DE79602D347533B76932B6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC7E303BF1DB58E1E561D7C0E8DBA830 /* ReplaceMe.swift in Sources */,
-				9EB4BEA1C822C9FA85A96051D460630A /* TradeItIosAdSdk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10869B0296FA7E29DC3A7239913F112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7191500AA5B3EC78758F5BCECA6C0832 /* AdService.swift in Sources */,
+				CFB817C5114E1CB65D204CA6F17687DC /* server-prod.der in Sources */,
+				3C541F201A42E597DC086484CEF20AEC /* server-qa.der in Sources */,
+				867A0D5FFB4BDCB2CB410864194E1F6E /* SSLPinningDelegate.swift in Sources */,
+				0D712186145BBF795E57132C4C049465 /* TradeItAdConfig.swift in Sources */,
+				83B8D102497D667C3C4CB65813F0EF4D /* TradeItAdEnvironment.swift in Sources */,
+				E324713E636566963913B49453DCFBB1 /* TradeItAdError.swift in Sources */,
+				580286176F1F38835A51433EF123AF56 /* TradeItAdView.swift in Sources */,
+				7AF442161596FA134EB56CB4E1B1F1AC /* TradeItAdView.xib in Sources */,
+				27BB733EB9C42C8E8C755198A7827FCE /* TradeItIosAdSdk-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +507,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		88CF64C9495918E8024F6C37FFA11857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TradeItIosAdSdk-TradeItIosAdSdk";
+			target = EBEAA3C116935F09004A248A995981EE /* TradeItIosAdSdk-TradeItIosAdSdk */;
+			targetProxy = DFBC337D42FB05FBD3DD402EB832D911 /* PBXContainerItemProxy */;
+		};
 		E94CAE130194FC81AE2D070B2E2C6466 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TradeItIosAdSdk;
@@ -370,6 +522,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		004E6B85AE60C6016B373339C1866890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9492F579A95717820D064358EDF1164 /* TradeItIosAdSdk.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TradeItIosAdSdk";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TradeItIosAdSdk/ResourceBundle-TradeItIosAdSdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TradeItIosAdSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -443,7 +612,7 @@
 		};
 		B83BD494A2805BE934AFE3D75A505B3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C2C642226B53DCA5056D14E0BEAA80E /* TradeItIosAdSdk.xcconfig */;
+			baseConfigurationReference = F9492F579A95717820D064358EDF1164 /* TradeItIosAdSdk.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -470,6 +639,23 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		C63901E1623A11355E32A3B8D6917A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9492F579A95717820D064358EDF1164 /* TradeItIosAdSdk.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TradeItIosAdSdk";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TradeItIosAdSdk/ResourceBundle-TradeItIosAdSdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TradeItIosAdSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		D1533CB287F29674A69223E80E42D56D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -581,7 +767,7 @@
 		};
 		F76A0EC2E01307AD254840BDBCB20E94 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C2C642226B53DCA5056D14E0BEAA80E /* TradeItIosAdSdk.xcconfig */;
+			baseConfigurationReference = F9492F579A95717820D064358EDF1164 /* TradeItIosAdSdk.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -650,6 +836,15 @@
 			buildConfigurations = (
 				FCB4B187994BFC72FD559888B57373B5 /* Debug */,
 				2F16EAC324FAF0371815A31BFEFE1C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AB5D15D72C58A2E8C382A1D43CE288F /* Build configuration list for PBXNativeTarget "TradeItIosAdSdk-TradeItIosAdSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004E6B85AE60C6016B373339C1866890 /* Debug */,
+				C63901E1623A11355E32A3B8D6917A6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

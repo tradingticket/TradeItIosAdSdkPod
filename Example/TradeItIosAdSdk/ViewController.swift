@@ -1,24 +1,15 @@
-//
-//  ViewController.swift
-//  TradeItIosAdSdk
-//
-//  Created by James Robert Somers on 08/11/2016.
-//  Copyright (c) 2016 James Robert Somers. All rights reserved.
-//
-
 import UIKit
+import TradeItIosAdSdk
 
 class ViewController: UIViewController {
+    @IBOutlet weak var adView: TradeItAdView!
+    @IBOutlet weak var adViewHeightConstraint: NSLayoutConstraint!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        TradeItAdConfig.debug = true
+        TradeItAdConfig.apiKey = "tradeit-test-api-key"
+        TradeItAdConfig.environment = .QA
+        self.adView.configureWithAdType("general", heightConstraint: self.adViewHeightConstraint)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
-
