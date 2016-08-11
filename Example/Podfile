@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TradeItIosAdSdk_Example' do
+  pod 'TradeItIosAdSdk', :path => '../'
+
+  target 'TradeItIosAdSdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
