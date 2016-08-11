@@ -9,24 +9,17 @@
 Pod::Spec.new do |s|
   s.name             = 'TradeItIosAdSdk'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TradeItIosAdSdk.'
+  s.summary          = 'TradeIt iOS Ad SDK'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    A library that provides tools for inserting ads into your iOS apps using the TradeIt platform.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/TradeItIosAdSdk'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/tradingticket/TradeItIosAdSdkPod'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'James Robert Somers' => 'james@trade.it' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/TradeItIosAdSdk.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/tradingticket/TradeItIosAdSdkPod.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
@@ -37,6 +30,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

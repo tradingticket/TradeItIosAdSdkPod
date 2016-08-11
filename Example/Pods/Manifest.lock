@@ -1,0 +1,16 @@
+PODS:
+  - TradeItIosAdSdk (0.1.0)
+
+DEPENDENCIES:
+  - TradeItIosAdSdk (from `../`)
+
+EXTERNAL SOURCES:
+  TradeItIosAdSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TradeItIosAdSdk: 3c1c74bb3798774da74ec30df45a22827b41539a
+
+PODFILE CHECKSUM: 1367f77dd8490e26500314e4c57d63617a50794a
+
+COCOAPODS: 1.0.1
